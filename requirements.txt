@@ -1,0 +1,6 @@
+# 轻量文件页数统计助手依赖（全部可选，缺失时自动降级）
+pypdf>=3.0          # PDF 页数解析
+olefile>=0.46       # 老格式 doc/xls/ppt 摘要信息读取
+tkinterdnd2>=0.3    # 窗口拖拽支持
+openpyxl>=3.1       # 导出 Excel（缺失时降级为 CSV）
+pywin32>=306; sys_platform == "win32"   # 可选：Office COM 兜底统计

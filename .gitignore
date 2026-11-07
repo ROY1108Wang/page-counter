@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+build/
+*.spec
+
+# 运行日志
+app.log
+
+# 大文件: exe 不入仓库, 建议发布到 GitHub Releases
+dist/
