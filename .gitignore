@@ -7,5 +7,8 @@ build/
 # 运行日志
 app.log
 
+# 本机启动脚本(含本机 Python 路径)
+_launch.bat
+
 # 大文件: exe 不入仓库, 建议发布到 GitHub Releases
 dist/
